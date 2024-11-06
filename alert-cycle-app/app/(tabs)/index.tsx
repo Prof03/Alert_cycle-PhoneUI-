@@ -1,9 +1,10 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet, Platform, Touchable } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function HomeScreen() {
   return (
@@ -28,6 +29,11 @@ export default function HomeScreen() {
             {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
           </ThemedText>{' '}
           to open developer tools.
+        </ThemedText>
+        <ThemedText>
+          <TouchableOpacity>
+          CONNECT TO CAMERA 0.0.0.0
+          </TouchableOpacity>
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
