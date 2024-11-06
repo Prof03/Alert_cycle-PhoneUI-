@@ -60,9 +60,6 @@ const styles = StyleSheet.create({
     gap: 8,
     marginBottom: 8,
   },
-  hello: {
-    color: blue,
-  },
   reactLogo: {
     height: 178,
     width: 290,
