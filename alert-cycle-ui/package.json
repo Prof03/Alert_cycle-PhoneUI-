@@ -1,5 +1,5 @@
 {
-  "name": "alert-cycle-app",
+  "name": "alert-cycle-ui",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {

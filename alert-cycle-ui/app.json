@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "alert-cycle-app",
-    "slug": "alert-cycle-app",
+    "name": "alert-cycle-ui",
+    "slug": "alert-cycle-ui",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
